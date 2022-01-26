@@ -4,7 +4,8 @@
   "description": "A Javascript Project in The Odin Project Curriculum. Use Jest as a test-running system.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
