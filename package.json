@@ -1,0 +1,29 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "A Javascript Project in The Odin Project Curriculum. Use Jest as a test-running system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexus0208/Battleship.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexus0208/Battleship/issues"
+  },
+  "homepage": "https://github.com/nexus0208/Battleship#readme",
+  "dependencies": {
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "jest": "^27.4.7",
+    "style-loader": "^3.3.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
