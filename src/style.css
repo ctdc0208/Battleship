@@ -33,4 +33,28 @@ html, body {
         line-height: 5rem; /* center text vertically */
     }
 
-    
+.main-game {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    width: 55rem;
+    height: 25rem;
+    margin-top: 0;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+}
+    .p1Board, .p2Board {
+        display: inline-grid;
+        width: 20rem;
+        height: 20rem;
+        grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+        background-color: black;
+    }
+    .block-item {
+        border: 1px solid white;
+    }
